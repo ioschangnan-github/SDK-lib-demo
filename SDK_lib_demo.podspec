@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDK_lib_demo'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '这是一个SDK测试demo of SDK_lib_demo.'
 
 # This description is used to generate tags and improve search results.
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 这是一个SDK测试详细描述demo.
+TODO: 这是一个SDK测试demo详细描述，我这里要详细描述一下，不然字数少于摘要会报警告.
                        DESC
 
-  s.homepage         = 'https://github.com/ioschangnan-github/SDK_lib_demo.git'
+  s.homepage         = 'https://github.com/ioschangnan-github/SDK-lib-demo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ioschangnan@163.com' => 'APP@hkaspire.cn' }
-  s.source           = { :git => 'https://github.com/ioschangnan-github/SDK_lib_demo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ioschangnan-github/SDK-lib-demo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
