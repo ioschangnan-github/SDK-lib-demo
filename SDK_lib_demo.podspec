@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDK_lib_demo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SDK_lib_demo.'
+  s.version          = '0.0.2'
+  s.summary          = '这是一个SDK测试demo of SDK_lib_demo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 这是一个SDK测试详细描述demo.
                        DESC
 
-  s.homepage         = 'https://github.com/ioschangnan@163.com/SDK_lib_demo'
+  s.homepage         = 'https://github.com/ioschangnan-github/SDK_lib_demo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ioschangnan@163.com' => 'APP@hkaspire.cn' }

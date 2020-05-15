@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ioschangnan@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XT92F4VA9G;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 002B8C5C32E2FC204032494D /* Pods-SDK_lib_demo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XT92F4VA9G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDK_lib_demo/SDK_lib_demo-Prefix.pch";
 				INFOPLIST_FILE = "SDK_lib_demo/SDK_lib_demo-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 2479B9B70DFE7F1A527A0483 /* Pods-SDK_lib_demo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XT92F4VA9G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDK_lib_demo/SDK_lib_demo-Prefix.pch";
 				INFOPLIST_FILE = "SDK_lib_demo/SDK_lib_demo-Info.plist";
