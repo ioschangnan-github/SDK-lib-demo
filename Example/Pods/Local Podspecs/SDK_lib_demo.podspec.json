@@ -1,6 +1,6 @@
 {
   "name": "SDK_lib_demo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "这是一个SDK测试demo of SDK_lib_demo.",
   "description": "TODO: 这是一个SDK测试demo详细描述，我这里要详细描述一下，不然字数少于摘要会报警告.",
   "homepage": "https://github.com/ioschangnan-github/SDK-lib-demo.git",
@@ -13,13 +13,18 @@
   },
   "source": {
     "git": "https://github.com/ioschangnan-github/SDK-lib-demo.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "SDK_lib_demo/Classes/**/*",
-  "vendored_frameworks": "SDK_lib_demo/Classes/*.framework",
+  "resource_bundles": {
+    "SDK_lib_demo": [
+      "SDK_lib_demo/Assets/*.png"
+    ]
+  },
+  "public_header_files": "SDK_lib_demo/SDK_lib_demo/Classes/ScreenshotCutter/Cutter.h",
   "frameworks": [
     "UIKit",
     "Foundation"

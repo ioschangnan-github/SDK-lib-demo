@@ -1,14 +1,8 @@
-#
-# Be sure to run `pod lib lint SDK_lib_demo.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+
 
 Pod::Spec.new do |s|
   s.name             = 'SDK_lib_demo'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '这是一个SDK测试demo of SDK_lib_demo.'
   
   s.description      = <<-DESC
@@ -29,10 +23,9 @@ TODO: 这是一个SDK测试demo详细描述，我这里要详细描述一下，�
      'SDK_lib_demo' => ['SDK_lib_demo/Assets/*.png']
    }
 
-  s.public_header_files = 'SDK_lib_demo/Classes/ScreenshotCutter/Cutter.h'
-  s.vendored_frameworks = 'SDK_lib_demo/Classes/*.framework'
+  s.public_header_files = 'SDK_lib_demo/SDK_lib_demo/Classes/ScreenshotCutter/Cutter.h'
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency  'AFNetworking'
-  
+  s.dependency  'SDWebImage'
   
 end

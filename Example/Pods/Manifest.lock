@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - SDK_lib_demo (0.0.3):
+  - SDK_lib_demo (0.0.4):
     - AFNetworking
     - SDWebImage
   - SDWebImage (5.8.0):
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  SDK_lib_demo: d3348cf888dff2c2dcefb61a5db7607ccd777132
+  SDK_lib_demo: 4c297e3d81e9d4525f3548ab9eae5ef7dad983ce
   SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
 
 PODFILE CHECKSUM: 273c676d39834e755249f1e0d494a9cfc10cc6e9
