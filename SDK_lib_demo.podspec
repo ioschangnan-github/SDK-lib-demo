@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ioschangnan@163.com' => 'APP@hkaspire.cn' }
-  s.source           = { :git => 'https://github.com/ioschangnan@163.com/SDK_lib_demo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ioschangnan-github/SDK_lib_demo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
