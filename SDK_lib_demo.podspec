@@ -1,8 +1,8 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'CNTestSDK'
-  s.version          = '0.0.6'
+  s.name             = 'SDK_lib_demo'
+  s.version          = '0.0.7'
   s.summary          = '这是一个SDK测试demo of SDK_lib_demo.'
   
   s.description      = <<-DESC
