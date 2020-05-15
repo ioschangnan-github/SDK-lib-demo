@@ -1,0 +1,6 @@
+framework module SDK_lib_demo {
+  umbrella header "SDK_lib_demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

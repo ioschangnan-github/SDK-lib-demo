@@ -1,0 +1,22 @@
+{
+  "name": "SDK_lib_demo",
+  "version": "0.1.0",
+  "summary": "A short description of SDK_lib_demo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ioschangnan@163.com/SDK_lib_demo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioschangnan@163.com": "APP@hkaspire.cn"
+  },
+  "source": {
+    "git": "https://github.com/ioschangnan@163.com/SDK_lib_demo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDK_lib_demo/Classes/**/*"
+}

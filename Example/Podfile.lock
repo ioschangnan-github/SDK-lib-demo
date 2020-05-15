@@ -1,0 +1,16 @@
+PODS:
+  - SDK_lib_demo (0.1.0)
+
+DEPENDENCIES:
+  - SDK_lib_demo (from `../`)
+
+EXTERNAL SOURCES:
+  SDK_lib_demo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDK_lib_demo: 983447a9914719f6dec78e5ac0500b2aa23d9928
+
+PODFILE CHECKSUM: 273c676d39834e755249f1e0d494a9cfc10cc6e9
+
+COCOAPODS: 1.9.1
