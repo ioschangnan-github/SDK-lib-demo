@@ -7,17 +7,18 @@
 //
 
 #import "CNViewController.h"
-
+#import <Cutter.h>
 @interface CNViewController ()
 
 @end
 
 @implementation CNViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.view viewCutter];
+    
+    [self.view afnetWorkTest];
 }
 
 - (void)didReceiveMemoryWarning

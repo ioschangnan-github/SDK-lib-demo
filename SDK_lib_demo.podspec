@@ -8,15 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDK_lib_demo'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '这是一个SDK测试demo of SDK_lib_demo.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  
   s.description      = <<-DESC
 TODO: 这是一个SDK测试demo详细描述，我这里要详细描述一下，不然字数少于摘要会报警告.
                        DESC
@@ -29,14 +23,16 @@ TODO: 这是一个SDK测试demo详细描述，我这里要详细描述一下，�
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'SDK_lib_demo/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SDK_lib_demo' => ['SDK_lib_demo/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SDK_lib_demo' => ['SDK_lib_demo/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'SDK_lib_demo/Classes/ScreenshotCutter/Cutter.h'
+  s.vendored_frameworks = 'SDK_lib_demo/Classes/*.framework'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency  'AFNetworking'
+  
+  
 end

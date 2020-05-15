@@ -1,15 +1,42 @@
 PODS:
-  - SDK_lib_demo (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - SDK_lib_demo (0.0.3):
+    - AFNetworking
+    - SDWebImage
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
 
 DEPENDENCIES:
   - SDK_lib_demo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
 
 EXTERNAL SOURCES:
   SDK_lib_demo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SDK_lib_demo: 983447a9914719f6dec78e5ac0500b2aa23d9928
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  SDK_lib_demo: d3348cf888dff2c2dcefb61a5db7607ccd777132
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
 
 PODFILE CHECKSUM: 273c676d39834e755249f1e0d494a9cfc10cc6e9
 
